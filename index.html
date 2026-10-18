@@ -44,13 +44,24 @@
             Want to learn more? Check out
             <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN's HTML guide</a>.
         </p>
+
+        <h3>JavaScript Basics</h3>
+        <p>
+            JavaScript is what makes a webpage actually do stuff. HTML is the structure,
+            CSS is the looks, and JS is the behavior.
+        </p>
+        <p>
+            Some things I've learned: let and const for variables, functions, if statements,
+            querySelector() to grab stuff off the page, and addEventListener() to run code when you click something.
+        </p>
     </div>
 
-    <!-- Contact section (button doesn't do anything yet) -->
+    <!-- Contact section - script.js makes the Send button work -->
     <div class="section">
         <h2>Contact Me</h2>
-        <input type="email" placeholder="Your email">
-        <button>Send</button>
+        <input type="email" id="emailInput" placeholder="Your email">
+        <button id="sendBtn">Send</button>
+        <p id="contactMessage"></p>
     </div>
 
     <script src="./js/script.js"></script>
