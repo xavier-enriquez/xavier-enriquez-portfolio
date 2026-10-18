@@ -1,7 +1,7 @@
 # Xavier's Portfolio
 
-**Name:** Xavier Enriquez
-**Class:** Software Systems (152-110-100) - Western Technical College
+- **Name:** Xavier Enriquez
+- **Class:** Software Systems (152-110-100) - Western Technical College
 
 ## Description
 
